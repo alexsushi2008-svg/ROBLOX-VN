@@ -19,17 +19,17 @@ crossorigin="anonymous"></script>
    <header>
     <nav>
         <ul>
-            <li> <a href="#"> Home </a> </li>
-            <li> <a href="#"> Top games </a> </li>
-            <li> <a href="#"> Updates </a> </li>
-            <li> <a href="#"> Buy Robux </a> </li>
+            <li> <a href="#carousel"> Home </a> </li>
+            <li> <a href="#topgames"> Top games </a> </li>
+            <li> <a href="#buy"> Buy Robux </a> </li>
+            <li> <a href="#Intro"> Founders </a> </li>
+
             <li class="nav__more">
                 <a href="#">More</a>
                 <i class="fa-solid fa-caret-down"></i>
 
                 <div class="nav_item">
-                    <a href="#">Contact</a>
-                    <a href="#">Forum</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </li>
         </ul>
@@ -39,7 +39,7 @@ crossorigin="anonymous"></script>
         </div>
    </header> 
 
-   <section class="carousel">
+   <section class="carousel" id="carousel">
  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -128,7 +128,7 @@ crossorigin="anonymous"></script>
 </div>
 </section>
 
-     <section class="topgames">
+     <section class="topgames" id="topgames">
         <div class="heading">
             <h1>Top Games</h1>
             <p>Không chơi là tiếc!</p>
@@ -155,18 +155,17 @@ crossorigin="anonymous"></script>
         </div>
      </section>
 
-<section class="./image.jpg"></section>
-   
+     <section class="buy" id="buy"> 
 <div class="roblox">
-    <h2>Roblox VN</h2>
+    <h2>Buy Robux</h2>
 
-    <div class="step-box">
+    <div class="buy robux">
         <h4>1. Đăng nhập bằng tên tài khoản (username)</h4>
         <input type="text" id="username" placeholder="Tên tài khoản">
         <button class="confirm-btn">Xác nhận</button>
     </div>
 
-    <div class="step-box">
+    <div class="buyrobux">
         <h4>2. Chọn gói</h4>
 
         <div class="tabs">
@@ -200,14 +199,14 @@ crossorigin="anonymous"></script>
         </div>
     </div>
 
-    <!-- FOOTER BAR -->
     <div class="bottom-bar">
         <p>Tổng tiền: <span id="total">0</span> VND</p>
-        <button class="next-btn">Tiếp tục</button>
+        <button class="button">Tiếp tục</button>
     </div>
 </div>
+</section>
 
-<section class="Intro">
+<section class="Intro" id="Intro">
 <div class = "heading">
 <h1> Founder </h1>
 <p> Cùng gặp founders của roblox! </p>
@@ -229,7 +228,7 @@ crossorigin="anonymous"></script>
 </div>
 </section>
 
- <section class="contact spacing">
+ <section class="contact spacing" id="contact">
         <div class="heading">
             <h1>Contact</h1>
             <p>Kiếm người chơi chung? Liên hệ!</p>
@@ -263,6 +262,7 @@ crossorigin="anonymous"></script>
     </section>
     <section class="imagine"></section>
 
+    <section class="footer">
    <footer>
     <div class="footer_icon">
         <a href="https://facebook.com" target="_blank">
@@ -283,11 +283,8 @@ crossorigin="anonymous"></script>
     </div>
     <p> Powered by Nhóm Labewbew</p>
    </footer>
+   </section>
 
-   <section class="roblox2"></section>
-
-   <section class="contact"></section>
-   
 
   
 </body>

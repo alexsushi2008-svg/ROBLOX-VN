@@ -145,8 +145,9 @@ opacity: 1;
 }
 
 .games_item{
-    background-color: #fff;
     width: 32%;
+    background-color: white;
+    opacity: 80%;
 }
 
 .games_item img{
@@ -224,7 +225,7 @@ footer .footer_icon i {
     color: #DE3163;
 }
 
-.step-box {
+.buyrobux {
     background: #fff;
     border-radius: 10px;
     padding: 15px;
@@ -314,7 +315,7 @@ input {
     border: 1px lightpink;
 }
 
-.next-btn {
+.button {
     padding: 10px 15px;
     background: rgb(255, 255, 255);
     color: lightpink;
@@ -347,7 +348,7 @@ margin: 0 auto;
 }
 .Intro_context{
 text-align: center;
-color: #FAA0A0;
+color: #ffffff;
 word-spacing: 2px;
 }
 .Intro_member{
@@ -360,7 +361,7 @@ width: 160px;
 
 .Intro_item img{
 width: 200px;
-height: 200px;
+height: 250px;
 border-radius: 20px;
 border-color: #ff4898;
 }
@@ -424,4 +425,61 @@ nav {
 .dropdown-menu {
     position: absolute;
     z-index: 2000; /* lớn hơn banner */
+}
+
+.topgames {
+    background-image: url("https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/5/c/6/5c6d7b09e65d61e28097ed3f4ee6e0384cea6654_2_690x388.png");
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 250px;  
+    background-size: 100% 100%;
+}
+
+.buy {
+    background-image: url("https://img.freepik.com/free-photo/aesthetic-cloud-wallpaper_23-2151901874.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 250px;  
+    background-size: 100% 100%;
+}
+
+.contact {
+    background-image: url("https://w0.peakpx.com/wallpaper/978/776/HD-wallpaper-roblox-top-35-best-roblox-background-roblox-2022.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 250px;  
+    background-size: 100% 100%;
+}
+
+.Intro {
+    background-image: url("https://img.freepik.com/free-psd/social-media-sales-background_23-2151601743.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 250px;  
+    background-size: 100% 100%;
+}
+
+.heading h1 {
+    font-weight: 800; /* chỉnh độ đậm tại đây */
+    letter-spacing: 4px; 
+}
+
+.buy h2 {
+    font-weight: 800;
 }
